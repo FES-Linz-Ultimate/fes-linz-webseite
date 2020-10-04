@@ -2736,12 +2736,12 @@ input, select, textarea {
 			-webkit-flex-shrink: 0;
 			-ms-flex-shrink: 0;
 			flex-shrink: 0;
-			padding: 3em;
+			padding: 2em;
 		}
 
 			#header > header .avatar {
 				display: block;
-				margin: 0 auto 2.25em auto;
+				margin: 0 auto 1em;
 				width: 8em;
 			}
 
@@ -2753,7 +2753,7 @@ input, select, textarea {
 			#header > header p {
 				color: #d2f2e9;
 				font-style: italic;
-				margin: 1em 0 0 0;
+				margin: 0.25em 0 0 0;
 			}
 
 		#header > footer {
@@ -2802,7 +2802,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0.5em 0;
 						text-decoration: none;
 					}
 
