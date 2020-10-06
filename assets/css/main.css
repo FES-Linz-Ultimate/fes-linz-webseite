@@ -112,12 +112,23 @@ input, select, textarea {
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
+		opacity: inherit;
 		text-decoration: none;
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
 			color: #4acaa8 !important;
+			opacity: 1;
+		}
+    
+    a img {
+        transition: opacity 0.2s ease-in-out;
+        opacity: inherit;
+    }
+    
+    	a:hover img {
+			opacity: 1 !important;
 		}
 
 	strong, b {
