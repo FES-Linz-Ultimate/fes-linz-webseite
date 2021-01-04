@@ -3328,3 +3328,23 @@ input, select, textarea {
 			}
 
 	}
+
+section[data-scroll-section] img {
+	opacity: 0.5;
+	filter: grayscale();
+}
+
+section[data-scroll-section] .is-inview img {
+	opacity: 1.0;
+	filter: none;
+	transition: all ease-in-out .5s;
+}
+
+section[data-scroll-section] ul.feature-icons li {
+	filter: grayscale();	
+}
+
+section[data-scroll-section] ul.feature-icons.is-inview li {
+	filter: none;
+	transition: all ease-in-out .5s;
+}

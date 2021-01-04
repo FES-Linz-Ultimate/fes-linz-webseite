@@ -29,7 +29,7 @@
 		<meta property="og:description" content="ASKÖ FES Linz - Der Ultimate Verein von Linz" />
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main20210104.css" />
 		<link rel="preload" href="assets/css/fontawesome-all.min.css" as="style">
 		<link rel="preload" href="assets/webfonts/fa-regular-400.woff2" as="font" type="font/woff2" crossorigin>
 		<link rel="preload" href="assets/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossorigin>
@@ -60,8 +60,8 @@
 							<li><a href="#" class="icon brands fa-whatsapp"><span class="label">WhatsApp</span></a></li>
 							<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 						-->
-						<li><a href="https://discord.gg/Wz7dSXr6eF" class="icon brands fa-discord"><span class="label">Discord</span></a></li>
-						<li><a href="https://www.askoe-ooe.at/de/verband/askoe-vereine-ooe/clubshow-11040?Page=1&search_for[sportID][]=71" class="icon"><img src="images/askoe_logo.webp"
+						<li><a href="https://discord.gg/Wz7dSXr6eF" class="icon brands fa-discord" title="Discord"><span class="label">Discord</span></a></li>
+						<li><a href="https://www.askoe-ooe.at/de/verband/askoe-vereine-ooe/clubshow-11040?Page=1&search_for[sportID][]=71" class="icon" alt="ASKÖ Webseite"><img src="images/askoe_logo.webp"
 							style="height: 1.1em; opacity: 0.9;" alt="ASKÖ Logo" loading="lazy"></a></li>
 					</ul>
 				</footer>
@@ -71,7 +71,7 @@
 			<div id="wrapper">
 
 				<!-- Main -->
-					<div id="main">
+					<div id="main" data-scroll-container>
 
 						<!-- One -->
 							<section id="fes">
@@ -88,12 +88,12 @@
 							</section>
 
 						<!-- Two -->
-							<section id="ultimate">
+							<section id="ultimate" data-scroll-section>
 								<div class="container">
 									<h3>Ultimate Frisbee</h3>
 									<p>Ultimate (Frisbee) ist ein schneller, körperkontaktloser und attraktiver Teamsport der sowohl konditionell, als auch mental (gespielt wird ohne Schiedsrichter) den Spieler*innen (es wird Mixed gespielt) alles abverlangt. Das Spielfeld gleicht formal dem des American Footballfeldes. Das Ziel ist es, das Hauptspielfeld durch Zupassen der Scheibe zu überbrücken (ohne mit der Scheibe zu laufen), um dann so in die Endzone zu werfen zu können, dass ein Mitspieler der eigenen Mannschaft diese in der Endzone fangen kann.</p>
 									<p>Klingt einfach? Ist es auch. Mit etwas Übung kann es jede*r erlernen.</p>
-									<ul class="feature-icons">
+									<ul class="feature-icons" data-scroll-repeat="false" data-scroll>
 										<li class="icon regular fa-laugh-beam">Spaß</li>
 										<li class="icon solid fa-running">Ausdauer</li>
 										<li class="icon solid fa-route">Koordination</li>
@@ -106,14 +106,14 @@
 							</section>
 
 						<!-- Three -->
-							<section id="training">
+							<section id="training" data-scroll-section>
 								<div class="container">
 									<h3>Training</h3>
 									<p>Die Teilnahme am Training als Vereinsmitglied sowie über den <a href="https://usi.jku.at/usiweb/kurse">USI der JKU Linz möglich</a>. Ihr könnt natürlich auch gern zum Schnuppertraining vorbei schauen! Um der aktuellen Corona-Situation gerecht zu werden, meldet euch bitte zum Schnuppertraining an!</p>
 									<p>Die Einheitenenthalten einen Technikteil, bei dem grundlegende Wurftechniken geschult werden, sowie vorbereitende Spiele und Übungen. Im zweiten Teil kann dann das Gelernte im Spiel angewandt werden.</p>
 									<div class="features">
 										<article>
-											<div class="image"><img src="images/abc.jpg" alt="ABC Restaurant" loading="lazy" /></div>
+											<div class="image" data-scroll><img src="images/abc.webp" alt="ABC Restaurant" loading="lazy" /></div>
 											<div class="inner">
 												<h4>Wann und Wo?</h4>
 												<p><strong>Dienstags 19.00 &ndash; 20.30 Uhr</strong><br>
@@ -124,7 +124,7 @@
 											</div>
 										</article>
 										<article>
-											<div class="image"><img src="images/training.webp" alt="Training" loading="lazy" /></div>
+											<div class="image" data-scroll><img src="images/training.webp" alt="Training" loading="lazy" /></div>
 											<div class="inner">
 												<h4>Was muss ich mitbringen?</h4>
 												<p>Sport-/Laufbekleidung (der Jahreszeit entsprechend), sowie etwas zum Trinken.<br>Vorkenntnisse sind keine erforderlich, dafür aber viel Motivation!</p>
@@ -174,8 +174,9 @@
 									<p>ASKÖ Discsportverein Flat Earth Society Linz (<a href="https://www.askoe-ooe.at/de/verband/askoe-vereine-ooe/clubshow-11040?Page=1&search_for[sportID][]=71">Link zum ASKÖ OÖ</a>)</p>
 									<ul class="alt">
 									    <li>ZVR: 1426125357</li>
-									    <li>Obmann: Daniel Kaneider</li>
+									    <li><span class="icon fa-id-card"> Obmann: Daniel Kaneider</span></li>
 										<li><a href="mailto:obmann@fes-linz.eu" class="icon fa-envelope"> obmann@fes-linz.eu</a></li>
+									    <li><span class="icon fa-compass"> Zuständigkeit: Landespolizeidirektion OÖ, Linz</span></li>
 								    </ul>
 								    <p>Der Verein ist Mitglied des ASKÖ.</p>
 								</div>
@@ -196,9 +197,17 @@
 			</div>
 
 		<!-- Scripts -->
-			<script src="assets/js/scripts.js"></script>
+			<script src="assets/js/scripts20210104.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
+			
+			<script>
+				(function () {
+					const scroll = new LocomotiveScroll({
+						el: document.querySelector('[data-scroll-container]'),
+						repeat: true,
+					});
+				})();
+			</script>
 	</body>
 </html>
