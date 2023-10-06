@@ -2809,10 +2809,10 @@ input, select, textarea {
 				}
 
 					#header > nav ul li a {
-						-moz-transition: none;
-						-webkit-transition: none;
-						-ms-transition: none;
-						transition: none;
+						-moz-transition: background 250ms, color 250ms;
+						-webkit-transition: background 250ms, color 250ms;
+						-ms-transition: background 250ms, color 250ms;
+						transition: background 250ms, color 250ms;
 						border: 0;
 						color: #ffffff !important;
 						display: block;
